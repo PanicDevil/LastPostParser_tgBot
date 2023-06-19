@@ -1,1 +1,2 @@
-TGtoken = "1903459860:AAFOsPco9a6M_a_Dv6wE7_PTzcxRJ4xNbAA" #Your TG_TOKEN_BOT
+with open('token.txt', 'r') as file:
+    read_token = file.read()
