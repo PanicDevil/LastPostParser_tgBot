@@ -1,15 +1,13 @@
 import time
 
 def real_t_chek():
-    # while True:
     from parse_func import start_parse
     pre_parse = start_parse()
     time.sleep(15)
     parse = start_parse()
     get_uniq_post = list(set(parse) - set(pre_parse))
     if get_uniq_post == []:
-        print('not found')
+        print('ищу новые посты')
     else:
-        print('last post' + str(get_uniq_post))
-
-real_t_chek()
+        # print('last post' + str(get_uniq_post))
+        return str(get_uniq_post)

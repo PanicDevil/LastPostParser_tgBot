@@ -8,5 +8,3 @@ def read_chanels_func():
             chanels_list.append(result)
         only_chanels = ' '.join(chanels_list)
         return str(only_chanels)
-
-# read_chanels_func()
